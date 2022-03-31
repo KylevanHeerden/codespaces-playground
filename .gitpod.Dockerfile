@@ -13,6 +13,7 @@ RUN go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
 
 # Update path so that protoc can find plugins
 RUN export PATH="$PATH:$(go env GOPATH)/bin"
+RUN echo $GOPATH
 
 # Update apt-get
 RUN apt-get update
