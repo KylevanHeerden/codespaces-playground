@@ -1,7 +1,2 @@
 image:
   file: .gitpod.Dockerfile
-checkoutLocation: "src/github.com/codespaces-playground"
-workspaceLocation: "."
-tasks:
-  - init: >
-      cd /workspace/src/github.com/codespaces-playground
