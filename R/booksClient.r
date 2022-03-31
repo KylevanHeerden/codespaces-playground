@@ -37,4 +37,4 @@ booksClient.GetBook <- function(req) {
 
 booksClient.ListBooks()
 
-booksClient.GetBook("")
+booksClient.GetBook("books/c4a2")
